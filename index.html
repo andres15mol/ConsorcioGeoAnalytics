@@ -5,76 +5,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GEOANALYTICS</title>
+    
+    <!-- Título optimizado -->
+    <title>Geoanalytics - Soluciones de Información Geoespacial en Honduras</title>
+    
+    <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="/img/logo.ico">
-    <meta name="description"
-        content="Consorcio Geoanalytics, líder en Honduras, ofrece soluciones geoespaciales a través de Sistemas de Información Geográfica (SIG). Nuestro equipo técnico experto brinda soluciones personalizadas para decisiones estratégicas basadas en datos geoespaciales, garantizando calidad, precisión y eficiencia en cada proyecto.">
+    
+    <!-- Descripción SEO optimizada -->
+    <meta name="description" content="Geoanalytics, líder en soluciones de Sistemas de Información Geográfica (SIG) en Honduras, ofrece servicios geoespaciales personalizados para decisiones estratégicas basadas en datos precisos. Calidad y eficiencia garantizadas en cada proyecto.">
+    
+    <!-- Palabras clave para SEO -->
+    <meta name="keywords" content="Geoanalytics, sistemas de información geográfica, SIG, soluciones geoespaciales, geolocalización, Honduras, mapas interactivos, análisis espacial, datos geoespaciales">
+    
+    <!-- Metadatos Open Graph para redes sociales -->
+    <meta property="og:title" content="Geoanalytics - Soluciones de Información Geoespacial en Honduras">
+    <meta property="og:description" content="Líder en Honduras en sistemas de información geográfica. Descubre nuestras soluciones personalizadas para decisiones basadas en datos precisos.">
+    <meta property="og:image" content="/img/geoanalytics-social.jpg">
+    <meta property="og:url" content="https://tu-sitio.com">
+    <meta property="og:type" content="website">
+    
+    <!-- Metadatos Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Geoanalytics - Soluciones de Información Geoespacial en Honduras">
+    <meta name="twitter:description" content="Líder en Honduras en soluciones geoespaciales y SIG. Servicios personalizados para decisiones estratégicas basadas en datos precisos.">
+    <meta name="twitter:image" content="/img/geoanalytics-social.jpg">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- CSS de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    
+    <!-- CSS personalizado -->
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/queries.css">
     <link rel="stylesheet" href="./assets/css/carrusel-styles.css">
     <link rel="stylesheet" href="/assets/css/background-style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
+    <!-- Script de Anime.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 </head>
+
 
 <body>
 
     <header>
-
-        <nav class="main-nav container-fluid nav-s">
-            <div id="main-nav" class="row d-flex justify-content-between align-items-center">
-
-                <div id="logo" onclick="home()"
-                    class="col-9 col-lg-3 d-flex align-items-center justify-content-center logo">
-                    <img id="logo-nav" class="me-3 col-6" style="width: 200px;" src="/img/LogoAMpeq.png" alt="">
-                </div>
-
-                <div class="col-6 d-flex align-items-center justify-content-center center-nav">
-                    <a class="main-nav-link me-4" href="#about-me" onclick="closef()">ACERCA DE NOSOTROS</a>
-                    <a class="main-nav-link me-4" href="#sevicios-antes" onclick="closef()">SERVICIOS</a>
-                    <a class="main-nav-link me-4" href="#proyectos" onclick="closef()">PROYECTOS</a>
-                    <a class="main-nav-link me-4" href="#contact" onclick="closef()">CONTACTO</a>
-                </div>
-
-                <div class="col-3 d-flex justify-content-center center-nav final-nav">
-
-                    <!-- <a href="https://github.com/andres15mol" target="_blank" class="iconos-apps"><i class="me-4 fa-brands fa-github"></i></a> -->
-                    <!-- <a href="" target="_blank" class="iconos-apps"><i class="me-3 fa-brands fa-facebook"></i></a>
-                    <a href="" target="_blank" class="iconos-apps"><i class="me-3 fa-brands fa-linkedin"></i></a> -->
-                    <div class="iconos-apps"><i class="me-3 fa-brands fa-facebook"></i></div>
-                    <div class="iconos-apps"><i class="me-3 fa-brands fa-linkedin"></i></div>
-                    <!-- <button class="iconos-apps btn-leng text-center">ES</button> -->
-                </div>
-                <button class=" col-3 btn-mobile-nav" onclick="openNav()" id="btnMobileNav">
-                    <i class="fa-solid fa-bars"></i>
-                </button>
+    <nav class="main-nav container-fluid nav-s">
+        <div id="main-nav" class="row d-flex justify-content-between align-items-center">
+            
+            <!-- Logo con enlace a inicio -->
+            <div id="logo" onclick="home()" class="col-9 col-lg-3 d-flex align-items-center justify-content-center logo">
+                <a href="#" aria-label="Inicio">
+                    <img id="logo-nav" class="me-3 col-6" style="width: 200px;" src="/img/LogoAMpeq.png" alt="Logo de Geoanalytics">
+                </a>
             </div>
-        </nav>
-        <div class="franja"></div>
-    </header>
-    
-    <section class="container-fluid section-hero ">
-        
-        <img class="back1" src="img/back1.webp" alt="">
-        <div class="row landing">
-            <div class="hero col-12 col-lg-12 ">
-                <div class="col-6 mapImg">
-                    <img src="img/honMap.svg" alt="">
-                </div>
-                <div class="col-6">
-                    <h1 class="text-center" id="yosoy">GEOANALYTICS SERVICE GROUP S.A. DE C.V.</h1>
-                    <div class="contact-me"></div>
-    
-                    <p id="description" class="text-lg-start text-center">CALIDAD EN NUESTRAS SOLUCIONES</p>
-                </div>
-                
+
+            <!-- Enlaces de navegación -->
+            <div class="col-6 d-flex align-items-center justify-content-center center-nav">
+                <a class="main-nav-link me-4" href="#about-me" onclick="closef()">ACERCA DE NOSOTROS</a>
+                <a class="main-nav-link me-4" href="#servicios" onclick="closef()">SERVICIOS</a>
+                <a class="main-nav-link me-4" href="#proyectos" onclick="closef()">PROYECTOS</a>
+                <a class="main-nav-link me-4" href="#contacto" onclick="closef()">CONTACTO</a>
             </div>
+
+            <!-- Redes sociales y botón de idioma -->
+            <div class="col-3 d-flex justify-content-center center-nav final-nav">
+  
+                <button class="iconos-apps btn-leng text-center" aria-label="Cambiar idioma a español">ES</button>
+            </div>
+
+            <!-- Botón de navegación móvil -->
+            <button class="col-3 btn-mobile-nav" onclick="openNav()" id="btnMobileNav" aria-label="Abrir menú de navegación">
+                <i class="fa-solid fa-bars"></i>
+            </button>
         </div>
-    </section>
+    </nav>
     <div class="franja"></div>
+</header>
+<div class="franja"></div>
     <ul class="circles">
         <li></li>
         <li></li>
@@ -87,149 +93,135 @@
         <li></li>
         <li></li>
     </ul>
+    
+    <section class="container-fluid section-hero">
+    
+        <!-- Imagen de fondo con descripción accesible y optimizada -->
+        <img class="back1" src="img/back1.webp" alt="Fondo geoespacial abstracto de Geoanalytics">
+    
+        <div class="row landing">
+            <div class="hero col-12 col-lg-12 d-flex justify-content-center align-items-center flex-lg-row flex-column">
+                
+                <!-- Imagen del mapa con descripción detallada -->
+                <div class="col-6 mapImg text-center">
+                    <img src="img/honMap.svg" alt="Mapa de Honduras resaltando áreas de análisis geoespacial">
+                </div>
+    
+                <!-- Texto de presentación de la empresa -->
+                <div class="col-6 text-center text-lg-start">
+                    <h1 class="text-center" id="yosoy" aria-label="Nombre de la empresa Geoanalytics Service Group S.A. de C.V.">
+                        GEOANALYTICS SERVICE GROUP S.A. DE C.V.
+                    </h1>
+                    
+                    <!-- Descripción de calidad -->
+                    <p id="description" class="text-lg-start text-center">
+                        CALIDAD EN NUESTRAS SOLUCIONES
+                    </p>
+    
+                    <!-- Sección de contacto -->
+                    <div class="contact-me mt-3 text-center text-lg-start" aria-label="Sección de contacto"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
     <!-- <div class="area" >
     
 </div > -->
 
     <section class="about-me" id="about-me">
-        <div class="container">
-            <div class="row p-5">
-                <div class="col-12 col-lg-6 text-center d-flex flex-column  align-items-center">
-                    <h2 class="mt-5 mb-5 display-1 display-sm-5">GEOANALYTICS SERVICE GROUP S.A. DE C.V.</h2>
+    <div class="container">
+        <div class="row p-5">
 
-                    <!-- <div id="contenedor" onmousemove="moverImagen(event)" class="">
-                        <div id="fondo"></div>
-                        <div id="imagen"></div>
-                        
-                    </div> -->
-                    <video class="video" width="90%" autoplay muted loop>
-                        <source src="img/video.mp4" type="video/mp4">
-                        Tu navegador no soporta el video.
-                    </video>
+            <!-- Columna de video y título optimizados para SEO -->
+            <div class="col-12 col-lg-6 text-center d-flex flex-column align-items-center">
+                <h2 class="mt-5 mb-5 display-1 display-sm-5" aria-label="Geoanalytics Service Group S.A. de C.V., líder en soluciones geoespaciales en Honduras">
+                    GEOANALYTICS SERVICE GROUP S.A. DE C.V.
+                </h2>
 
-
-                </div>
-                <div class="mt-5 col-12 col-lg-6 d-flex align-items-center parra-about-me">
-                    <p class="parraf-english ">
-                        Consorcio Geoanalytics se distingue como un grupo de
-                        empresas líder en Honduras, especializado en proporcionar
-                        servicios avanzados en soluciones geoespaciales mediante
-                        la implementación de Sistemas de Información Geográfica
-                        (SIG). <br>
-                        Nuestro equipo de profesionales técnicos se destaca por su
-                        experiencia en ofrecer soluciones tecnológicas integrales y
-                        personalizadas, permitiendo a nuestros clientes tomar
-                        decisiones estratégicas fundamentadas en análisis de datos
-                        geoespaciales. <br><br>
-                        Dedicamos un énfasis especial en la garantía de calidad,
-                        precisión y eficiencia en cada proyecto que emprendemos.
-                        En el Consorcio Geoanalytics, contamos con un equipo de
-                        expertos altamente especializados en la gestión e
-                        implementación de proyectos centrados en los SIG. <br>
-
-                    </p>
-
-                </div>
-
+                <!-- Video con descripción para accesibilidad -->
+                <video class="video" width="90%" autoplay muted loop aria-label="Presentación en video de los servicios geoespaciales de Geoanalytics">
+                    <source src="img/video.mp4" type="video/mp4">
+                    Tu navegador no soporta el video.
+                </video>
             </div>
 
+            <!-- Columna de texto descriptivo optimizado para SEO y accesibilidad -->
+            <div class="mt-5 col-12 col-lg-6 d-flex align-items-center parra-about-me">
+                <p class="parraf-english">
+                    Consorcio Geoanalytics se distingue como un grupo de empresas líder en Honduras, especializado en proporcionar servicios avanzados en soluciones geoespaciales mediante la implementación de Sistemas de Información Geográfica (SIG).<br>
+                    Nuestro equipo de profesionales técnicos se destaca por su experiencia en ofrecer soluciones tecnológicas integrales y personalizadas, permitiendo a nuestros clientes tomar decisiones estratégicas fundamentadas en análisis de datos geoespaciales.<br><br>
+                    
+                    Dedicamos un énfasis especial en la garantía de <strong>calidad, precisión y eficiencia</strong> en cada proyecto que emprendemos. En el Consorcio Geoanalytics, contamos con un equipo de expertos altamente especializados en la gestión e implementación de proyectos centrados en los SIG.
+                </p>
+            </div>
         </div>
-    </section>
+    </div>
+</section>
+
     <br><br><br><br>
-    <section class="containerMyV">
-        <div class="contentMyV">
-            <div class="cardMyV">
-                <h3>Misión</h3>
-                <br>
-                <p>
-                    En nuestra empresa, nos dedicamos con firmeza a
-                    proporcionar soluciones tecnológicas innovadoras a través
-                    de sistemas de información geográfica. Estos sistemas
-                    permiten a nuestros clientes garantizar la seguridad,
-                    transparencia y confiabilidad de sus procesos digitales. Nos
-                    destacamos por impulsar la automatización de procesos,
-                    asegurando la calidad de los datos geoespaciales y
-                    facilitando que las operaciones se desarrollen de manera
-                    precisa y oportuna.
-                    <br>
-                    Nuestro compromiso con la excelencia, la transparencia y la
-                    confianza impulsa cada solución que ofrecemos. Buscamos
-                    constantemente superar las expectativas, contribuyendo así
-                    a generar un impacto positivo en la eficacia y eficiencia de
-                    las instituciones y empresas a las que servimos.
-                </p>
-            </div>
-            <div class="cardMyV">
-                <h3>Visión</h3>
-                <br>
-                <p>
-                    Buscamos liderar con visión en el ámbito de las soluciones
-                    tecnológicas, destacándonos por nuestra dedicación a la
-                    innovación a través de sistemas de información geográfica.
-                    Imaginamos un futuro donde nuestra tecnología no solo
-                    asegure la seguridad, transparencia y confiabilidad de los
-                    procesos digitales de nuestros clientes, sino que también
-                    impulse la evolución constante de la automatización de
-                    procesos. <br>
-                    Nuestra meta es consolidarnos como una empresa de
-                    referencia a nivel nacional e internacional, liderando la
-                    transformación digital y la innovación tecnológica a través
-                    de soluciones avanzadas, como el uso de Sistemas de
-                    Información Geográfica. Queremos ser reconocidos no solo
-                    por la calidad de nuestras soluciones, sino también como
-                    impulsores clave en la adopción e implementación de
-                    tecnologías que sean referentes en el panorama empresarial
-                    y tecnológico a nivel global.
+<section class="containerMyV" aria-labelledby="myv-heading">
+    <div class="contentMyV">
 
-                </p>
-            </div>
-
+        <!-- Card de Misión optimizado para SEO y accesibilidad -->
+        <div class="cardMyV" aria-labelledby="mission-heading">
+            <h3 id="mission-heading">Misión</h3>
+            <p>
+                En nuestra empresa, nos dedicamos con firmeza a proporcionar soluciones tecnológicas innovadoras a través de <strong>sistemas de información geográfica</strong>. Estos sistemas permiten a nuestros clientes garantizar la seguridad, transparencia y confiabilidad de sus procesos digitales. Nos destacamos por impulsar la <strong>automatización de procesos</strong>, asegurando la calidad de los <strong>datos geoespaciales</strong> y facilitando que las operaciones se desarrollen de manera precisa y oportuna.
+            </p>
+            <p>
+                Nuestro compromiso con la excelencia, la transparencia y la confianza impulsa cada solución que ofrecemos. Buscamos constantemente superar las expectativas, contribuyendo así a generar un impacto positivo en la eficacia y eficiencia de las instituciones y empresas a las que servimos.
+            </p>
         </div>
-    </section>
+
+        <!-- Card de Visión optimizado para SEO y accesibilidad -->
+        <div class="cardMyV" aria-labelledby="vision-heading">
+            <h3 id="vision-heading">Visión</h3>
+            <p>
+                Buscamos liderar con visión en el ámbito de las soluciones tecnológicas, destacándonos por nuestra dedicación a la innovación a través de <strong>sistemas de información geográfica</strong>. Imaginamos un futuro donde nuestra tecnología no solo asegure la seguridad, transparencia y confiabilidad de los procesos digitales de nuestros clientes, sino que también impulse la evolución constante de la <strong>automatización de procesos</strong>.
+            </p>
+            <p>
+                Nuestra meta es consolidarnos como una empresa de referencia a nivel nacional e internacional, liderando la <strong>transformación digital</strong> y la <strong>innovación tecnológica</strong> a través de soluciones avanzadas como el uso de Sistemas de Información Geográfica. Queremos ser reconocidos no solo por la calidad de nuestras soluciones, sino también como impulsores clave en la adopción e implementación de tecnologías que sean referentes en el panorama empresarial y tecnológico a nivel global.
+            </p>
+        </div>
+
+    </div>
+</section>
+
     <div class="background-blur"></div>
 
 
-    <section id="sevicios-antes" class="tecnologies">
+    <section id="sevicios-antes" class="tecnologies" aria-labelledby="services-heading">
         <div class="container">
             <div class="row d-flex justify-content-center flex-column align-items-center">
-
-                <h3 class="display-2 text-center mt-5">Servicios</h3>
-                <p class=" mt-5 mb-5 services">Implementación de software de escritorio (ArcGIS PRO, ArcMAP, etc.),
-                    software empresarial (ArcGIS ENTERPRISE) y software en línea (ArcGIS Online) y sus extensiones.
-                    Estos servicios pueden incluir los siguientes componentes:
-                    <br>
-                    <br>-Implementación de bases de datos espaciales (PostgreSQL - PostGIS, Oracle -  Spatial and Graph
-                    Essentials, SQL Server).
-                    <br>- de aplicaciones SIG de acuerdo con necesidades específicas.
-                    <br>-Creación de infraestructuras de datos espaciales locales.
-                    <br>-Diseño, desarrollo e implementación de aplicaciones SIG móviles para elaboración de formularios
-                    digitales con la finalidad de captura de datos mediante encuestas o procesos censales.
-                    <br>-Desarrollo e implementación de tableros de control (dashboards) para geo inteligencia de
-                    negocio y analítica de datos en tiempo real.
-                    <br>-Elaboración de mapas y plataformas WEB y hubs de mapas para análisis espacial avanzado para
-                    toma de decisiones.
+    
+                <!-- Título de la sección -->
+                <h3 id="services-heading" class="display-2 text-center mt-5" aria-label="Servicios ofrecidos en soluciones geoespaciales">
+                    Servicios
+                </h3>
+    
+                <!-- Descripción de los servicios -->
+                <p class="mt-5 mb-5 services">
+                    Implementación de software de escritorio (<strong>ArcGIS PRO</strong>, <strong>ArcMAP</strong>, etc.),
+                    software empresarial (<strong>ArcGIS ENTERPRISE</strong>) y software en línea (<strong>ArcGIS Online</strong>) y sus extensiones.
+                    Estos servicios incluyen, pero no se limitan a, los siguientes componentes:
                 </p>
-                <div class="col-18 col-lg-9 text-center">
-                    <!-- <img src="/img/logos/vue.svg" alt="" class="imgs-logos">
-                    <img src="/img/logos/js.svg" alt="" class="imgs-logos">
-                    <img src="/img/logos/ts.svg" alt="" class="imgs-logos">
-                    <img src="/img/logos/postgres.svg" alt="" class="imgs-logos">
-                    <img src="/img/logos/Go.svg" alt="" class="imgs-logos">
-                    <img src="/img/logos/mongo.svg" alt="" class="imgs-logos">
-                    <img src="/img/logos/node.svg" alt="" class="imgs-logos">
-                    <img src="/img/logos/java.svg" alt="" class="imgs-logos">
-                    <img src="/img/logos/figma.svg" alt="" class="imgs-logos">
-                    <img src="/img/logos/css.svg" alt="" class="imgs-logos">
-                    <img src="/img/logos/HTML5.svg" alt="" class="imgs-logos">
-                    <img src="/img/logos/Odoo.svg" alt="" class="imgs-logos" style="height: auto;">
-                    <img src="/img/logos/bootstrap.svg" alt="" class="imgs-logos">
-                    <img src="/img/logos/photoshop.svg" alt="" class="imgs-logos"> -->
-                </div>
-
+    
+                <!-- Lista de servicios -->
+                <ul>
+                    <li>Implementación de bases de datos espaciales (<strong>PostgreSQL - PostGIS</strong>, <strong>Oracle - Spatial and Graph Essentials</strong>, <strong>SQL Server</strong>).</li>
+                    <li>Desarrollo de aplicaciones SIG de acuerdo con necesidades específicas.</li>
+                    <li>Creación de infraestructuras de datos espaciales locales.</li>
+                    <li>Diseño, desarrollo e implementación de aplicaciones SIG móviles para la elaboración de formularios digitales con la finalidad de captura de datos mediante encuestas o procesos censales.</li>
+                    <li>Desarrollo e implementación de tableros de control (<strong>dashboards</strong>) para geo inteligencia de negocio y analítica de datos en tiempo real.</li>
+                    <li>Elaboración de mapas y plataformas web y hubs de mapas para análisis espacial avanzado para toma de decisiones.</li>
+                </ul>
+    
             </div>
-
         </div>
     </section>
+    
 
     <section id="services" class="pb-5 pt-3">
 
