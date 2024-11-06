@@ -1,5 +1,7 @@
+---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/example/public_html/
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp style.css $DEPLOYPATH
+    - export DEPLOYPATH=/home/z30n7bib7md1/public_html/
+    - /bin/rsync -av index.html $DEPLOYPATH 
+    - /bin/rsync -av assets/ $DEPLOYPATH 
+    - /bin/rsync -av img/ $DEPLOYPATH 
