@@ -2,6 +2,6 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/z30n7bib7md1/public_html/
-    - /bin/rsync -av index.html $DEPLOYPATH 
-    - /bin/rsync -av assets/ $DEPLOYPATH 
-    - /bin/rsync -av img/ $DEPLOYPATH 
+    - /bin/rsync -av index.html $DEPLOYPATH
+    - /bin/rsync -av assets/ $DEPLOYPATH/assets
+    - /bin/rsync -av img/ $DEPLOYPATH/img
